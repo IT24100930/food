@@ -2,7 +2,7 @@ import axios from 'axios';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 // ── Change this to your hosted backend URL ────────────────────────────────────
-export const BASE_URL = 'http://192.168.1.4:5000/api';
+export const BASE_URL = 'https://food-2-1di6.onrender.com/api';
 // For local development: 'http://192.168.1.x:5000/api' (use your local IP)
 
 const api = axios.create({
